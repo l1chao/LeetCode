@@ -39,4 +39,9 @@ func TestMain(t *testing.T) {
 	fmt.Println(len(arr1))
 	fmt.Println(cap(arr1))
 	fmt.Println(arr1 == nil)
+
+	var i, j int
+	for ; j < 10; i, j = i+1, j+1 {
+
+	}
 }
