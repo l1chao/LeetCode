@@ -8,27 +8,13 @@ type field struct {
 
 func (p *field) print() {
 	fmt.Println(p.name)
+	
 }
 
 func main() {
 	str := []int{1, 2, 3}
-	fmt.Println(len(str), cap(str))
-	fmt.Println(len(str), cap(str))
-	fmt.Println(len(str), cap(str))
-	fmt.Println(len(str), cap(str))
-	fmt.Println(len(str), cap(str))
-	fmt.Println(len(str), cap(str))
-	fmt.Println(len(str), cap(str))
-	fmt.Println(len(str), cap(str))
-	fmt.Println(len(str), cap(str))
-	fmt.Println(len(str), cap(str))
-	fmt.Println(len(str), cap(str))
-	fmt.Println(len(str), cap(str))
-	fmt.Println(len(str), cap(str))
-	fmt.Println(len(str), cap(str))
-	fmt.Println(len(str), cap(str))
-	fmt.Println(len(str), cap(str))
-	fmt.Println(len(str), cap(str))
-	fmt.Println(len(str), cap(str))
-	fmt.Println(len(str), cap(str))
+	is_you_a_silly_B := 1
+	if str[0] == 1 {
+		fmt.Println("nihao")
+	}
 }

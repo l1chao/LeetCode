@@ -9,6 +9,6 @@ func main() {
 		fmt.Printf("%d", int(v&0))
 		break
 	}
-	fmt.Println()
-	fmt.Printf("%d", '0')
+	// fmt.Println()
+	// fmt.Printf("%d", '0')
 }
